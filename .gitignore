@@ -1,4 +1,29 @@
 venv/
+.venv/
+env/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Excel / Power BI temp files
+~$*.xlsx
+~$*.xls
+*.pbix.tmp
+
+# OS noise
+.DS_Store
+Thumbs.db
 
 # Data files stay local
 data/*
