@@ -3,3 +3,24 @@ venv/
 # Data files stay local
 data/*
 !data/.gitkeep
+
+# Claude Code — local settings, session state, personal config
+.claude/
+
+# Secrets & credentials
+.env
+.env.*
+!.env.example
+*.env
+secrets.*
+credentials.*
+config.local.*
+*.key
+*.pem
+*.pfx
+*.p12
+*.crt
+service-account*.json
+*_credentials.json
+.pgpass
+.odbc.ini
