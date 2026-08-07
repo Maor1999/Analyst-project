@@ -1,0 +1,5 @@
+venv/
+
+# Data files stay local
+data/*
+!data/.gitkeep
