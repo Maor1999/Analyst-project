@@ -49,3 +49,6 @@ service-account*.json
 *_credentials.json
 .pgpass
 .odbc.ini
+
+# Personal interview prep, stays local
+docs/PROJECT_QA.md
